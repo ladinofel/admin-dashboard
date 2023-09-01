@@ -9,7 +9,7 @@ svg {
 .container {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 1fr 4fr;
+  grid-template-rows: 220px 4fr;
 }
 
 .sidebar {
@@ -78,4 +78,13 @@ a {
 
 a:visited {
   color: black;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.cards > div {
+  padding: 10px 60px 10px 10px;
 }
