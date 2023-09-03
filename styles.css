@@ -75,7 +75,7 @@ svg {
   gap: 10px;
   padding-left: 40px;
   padding-bottom: 30px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 #title {
@@ -160,7 +160,7 @@ a:hover {
 button {
   font-size: 20px;
   padding: 10px;
-  min-width: 60px;
+  min-width: 70px;
   border-radius: 15px;
   background-color: #3b518d;
   color: white;
