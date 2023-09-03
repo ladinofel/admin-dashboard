@@ -1,5 +1,11 @@
 body {
   margin: 0;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 svg {
@@ -15,6 +21,8 @@ svg {
 .sidebar {
   grid-column: 1;
   grid-row: 1 / -1;
+  background-color: #243665;
+  color: white;
 }
 
 .header {
@@ -23,11 +31,14 @@ svg {
   display: grid;
   grid-template-columns: 5fr 2fr;
   grid-template-rows: 1fr 1fr;
+  padding-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .projects {
   grid-column: 2;
   grid-row: 2;
+  padding-left: 20px;
 }
 
 .miscelaneous {
@@ -79,23 +90,29 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: black;
+a:visited, 
+a:active,
+a:link {
+  color: white;
 }
 
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+ 
 }
 
 .cards > div {
-  padding: 10px 60px 10px 10px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(250, 243, 243);
+  border-radius: 15px;
 }
 
 .news > div {
-  padding-top: 20px;
-  padding-right: 60px;
+  padding-right: 40px;
 }
+
 
 .trending {
   padding-top: 30px;
@@ -104,7 +121,7 @@ a:visited {
 .trendy-users > div {
   display: flex;
   gap: 15px;
-  padding-bottom: 20px;
+  padding: 10px;
 }
 
 .trendy-users > div > img {
@@ -136,6 +153,8 @@ button {
   padding: 10px;
   min-width: 80px;
   border-radius: 15px;
+  background-color: #3b518d;
+  color: white;
 }
 
 .search-bar {
@@ -155,4 +174,23 @@ input {
 
 #user-menu-img {
   height: 45px;
+}
+
+.header,
+.projects,
+.miscelaneous {
+  background-color: white;
+  color: black;
+}
+
+.miscelaneous {
+  padding: 20px;
+}
+
+.news,
+.trendy-users {
+  background-color: rgb(250, 243, 243);
+  border-radius: 15px;
+  padding: 20px;
+  margin-right: 10px;
 }
