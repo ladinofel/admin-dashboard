@@ -107,6 +107,8 @@ a:link {
   padding: 10px;
   background-color: rgb(250, 243, 243);
   border-radius: 15px;
+  border-left: solid #FF4155;
+  border-width: 6px;
 }
 
 .news > div {
