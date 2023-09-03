@@ -19,7 +19,6 @@ svg {
 }
 
 .sidebar {
-  display: grid;
   grid-column: 1;
   grid-row: 1 / -1;
   background-color: #243665;
