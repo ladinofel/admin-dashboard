@@ -9,13 +9,13 @@ body {
 }
 
 svg {
-  height: 30px;
+  height: 25px;
 }
 
 .container {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 220px 4fr;
+  grid-template-rows: 160px 4fr;
 }
 
 .sidebar {
@@ -75,11 +75,11 @@ svg {
   gap: 10px;
   padding-left: 40px;
   padding-bottom: 30px;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 #title {
-  font-size: 40px;
+  font-size: 20px;
 }
 
 #dashboard {
@@ -103,7 +103,7 @@ a:hover {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
  
 }
 
@@ -118,7 +118,7 @@ a:hover {
 }
 
 .news > div {
-  padding-right: 40px;
+  padding-right: 0px;
 }
 
 
@@ -133,7 +133,7 @@ a:hover {
 }
 
 .trendy-users > div > img {
-  height: 60px;
+  height: 45px;
 }
 
 #main-user-img {
@@ -157,9 +157,9 @@ a:hover {
 }
 
 button {
-  font-size: 20px;
+  font-size: 15px;
   padding: 10px;
-  min-width: 100px;
+  min-width: 60px;
   border-radius: 15px;
   background-color: #3b518d;
   color: white;
@@ -230,5 +230,9 @@ h2, h3 {
 #header-icon:hover {
   translate: 0px -10px 0px;
   cursor: pointer;
+}
+
+p {
+  font-size: 14px;
 }
 
